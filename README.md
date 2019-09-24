@@ -1,4 +1,3 @@
-===================================================================
 SPOE Agent (SPOA) for HAProxy to perform DNS resolutions at runtime
 ===================================================================
 
@@ -14,7 +13,7 @@ Corresponding HAProxy configuration is also provided.
 This is recommended to use with HAProxy 2.0+.
 
 Testing
-=======
+-------
 
 First, do the `go get` thing.
 
@@ -25,12 +24,12 @@ You can easily test the solution using 3 shells:
 3. run `curl` against HAProxy and observe the result in the log line sent to stdout
 
 Building
-========
+--------
 
 First, do the `go get` thing, then simply run `make build`
 
 Help
-====
+----
 
 Currently supported command line arguments:
 
@@ -41,12 +40,12 @@ Usage of ./spoa-do-resolve:
 ```
 
 Known errors or limitations
-===========================
+---------------------------
 
 None or check issues of this project.
 
 TODO
-====
+----
 
 * command line argument (flag) for:
   * custom DNS servers (default uses the OS ones)
